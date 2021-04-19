@@ -155,7 +155,7 @@ img { max-width: 90%;}
     width: 8%;
     position: absolute;
     z-index: 9999;
-    transition: all 1.3s;
+    transition: all 1.5s;
 
 
 }
@@ -170,7 +170,7 @@ img { max-width: 90%;}
     width: 10%;
     position: absolute;
     z-index: 9999;
-   transition: all 1.2s;
+   transition: all 1.5s;
 
 
 }
