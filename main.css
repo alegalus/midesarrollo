@@ -37,7 +37,7 @@ body {
 
 /* Make images easier to work with */
 
-img { max-width: 100%;}
+img { max-width: 90%;}
 
 /*--CSS RESET END--*/
 
@@ -48,15 +48,16 @@ img { max-width: 100%;}
     display: flex;
     justify-content: center;
     margin: auto;
+    width: 50%;
 
 }
 
 #planet1{
   
     margin: auto;
-    top:80;
+    top:250;
     bottom: 0;
-    left: 1500;
+    left: 1100;
     right: 0;
 
 
@@ -68,7 +69,7 @@ img { max-width: 100%;}
     top:100;
     bottom: 0;
     left: 0;
-    right: 1500;
+    right: 1000;
 
     
 }
@@ -76,10 +77,10 @@ img { max-width: 100%;}
 #planet3{
     
     margin:auto;
-    top:350;
+    top:300;
     bottom: 0;
     left: 0;
-    right: 1100;
+    right: 800;
 
     
 }
@@ -87,10 +88,10 @@ img { max-width: 100%;}
 #planet4{
     
     margin:auto;
-    top:580;
+    top:400;
     bottom: 0;
     left: 0;
-    right: 1600;
+    right: 1100;
 
     
 }
@@ -98,9 +99,9 @@ img { max-width: 100%;}
 #planet5{
     
     margin:auto;
-    top:580;
+    top:500;
     bottom: 0;
-    left: 1600;
+    left: 1000;
     right: 0;
 
     
@@ -109,9 +110,9 @@ img { max-width: 100%;}
 #planet6{
     
     margin:auto;
-    top:400;
+    top:300;
     bottom: 0;
-    left: 1000;
+    left: 700;
     right: 0;
 
     
@@ -122,7 +123,7 @@ img { max-width: 100%;}
     margin:auto;
     top:100;
     bottom: 0;
-    left: 800;
+    left: 600;
     right: 0;
 
     
@@ -131,10 +132,10 @@ img { max-width: 100%;}
 #planet8{
     
     margin:auto;
-    top:50;
+    top:150;
     bottom: 0;
     left: 0;
-    right: 800;
+    right: 600;
 
     
 }
@@ -142,7 +143,7 @@ img { max-width: 100%;}
 #planet9{
     
     margin:auto;
-    top:550;
+    top:500;
     bottom: 0;
     left: 0;
     right: 750;
@@ -151,7 +152,7 @@ img { max-width: 100%;}
 }
 
 .animPlanet1{
-    width: 10%;
+    width: 8%;
     position: absolute;
     z-index: 9999;
     transition: all 1.3s;
