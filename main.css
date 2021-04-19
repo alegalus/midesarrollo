@@ -1,0 +1,181 @@
+/*-- CSS RESET--*/
+/* Box sizing rules */
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {padding: 0;list-style: none; margin: 0;}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {margin: 0;}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 5em;}
+  
+
+/* Make images easier to work with */
+
+img { max-width: 100%;}
+
+/*--CSS RESET END--*/
+
+/*--IMAGEN NAVE--*/
+
+#nave{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#planet1{
+  
+    margin: auto;
+    top:80;
+    bottom: 0;
+    left: 1500;
+    right: 0;
+
+
+}
+
+#planet2{
+    
+    margin:auto;
+    top:100;
+    bottom: 0;
+    left: 0;
+    right: 1500;
+
+    
+}
+
+#planet3{
+    
+    margin:auto;
+    top:350;
+    bottom: 0;
+    left: 0;
+    right: 1100;
+
+    
+}
+
+#planet4{
+    
+    margin:auto;
+    top:580;
+    bottom: 0;
+    left: 0;
+    right: 1600;
+
+    
+}
+
+#planet5{
+    
+    margin:auto;
+    top:580;
+    bottom: 0;
+    left: 1600;
+    right: 0;
+
+    
+}
+
+#planet6{
+    
+    margin:auto;
+    top:400;
+    bottom: 0;
+    left: 1000;
+    right: 0;
+
+    
+}
+
+#planet7{
+    
+    margin:auto;
+    top:100;
+    bottom: 0;
+    left: 800;
+    right: 0;
+
+    
+}
+
+#planet8{
+    
+    margin:auto;
+    top:50;
+    bottom: 0;
+    left: 0;
+    right: 800;
+
+    
+}
+
+#planet9{
+    
+    margin:auto;
+    top:550;
+    bottom: 0;
+    left: 0;
+    right: 750;
+
+    
+}
+
+.animPlanet1{
+    width: 10%;
+    position: absolute;
+    z-index: 9999;
+    transition: all 1.3s;
+
+
+}
+
+.animPlanet1:hover{
+
+    transform: translate(40px,10px);
+
+}
+
+.animPlanet2{
+    width: 10%;
+    position: absolute;
+    z-index: 9999;
+   transition: all 1.2s;
+
+
+}
+
+.animPlanet2:hover{
+
+    transform: translate(-40px,-30px)
+
+}
