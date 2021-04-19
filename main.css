@@ -37,14 +37,14 @@ body {
 
 /* Make images easier to work with */
 
-img { max-width: 90%;}
+img { max-width: 100%;}
 
 /*--CSS RESET END--*/
 
 /*--IMAGEN NAVE--*/
 
 #nave{
-    height: auto;
+    height: 700px;
     display: flex;
     justify-content: center;
     margin: auto;
