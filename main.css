@@ -43,12 +43,22 @@ img { max-width: 100%;}
 
 /*--IMAGEN NAVE--*/
 
+main{
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    overflow: hidden;
+
+
+}
+
 #nave{
     height: 700px;
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 50%;
+    width: 60%;
+    overflow: hidden;
 
 }
 
@@ -57,7 +67,7 @@ img { max-width: 100%;}
     margin: auto;
     top:250;
     bottom: 0;
-    left: 1100;
+    left: 1000;
     right: 0;
 
 
@@ -110,7 +120,7 @@ img { max-width: 100%;}
 #planet6{
     
     margin:auto;
-    top:300;
+    top:400;
     bottom: 0;
     left: 700;
     right: 0;
@@ -167,7 +177,7 @@ img { max-width: 100%;}
 }
 
 .animPlanet2{
-    width: 10%;
+    width: 8%;
     position: absolute;
     z-index: 9999;
    transition: all 1.5s;
