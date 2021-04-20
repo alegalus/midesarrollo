@@ -46,9 +46,14 @@ img { max-width: 100%;}
 main{
     width: 80%;
     margin: auto;
-    height: 700px;
+    height: 650px;
     overflow: hidden;
 
+
+}
+
+main{
+margin-top: -4em;
 
 }
 
@@ -162,7 +167,7 @@ main{
 }
 
 .animPlanet1{
-    width: 8%;
+    width: 9%;
     position: absolute;
     z-index: 9999;
     transition: all 1.5s;
@@ -177,7 +182,7 @@ main{
 }
 
 .animPlanet2{
-    width: 8%;
+    width: 9%;
     position: absolute;
     z-index: 9999;
    transition: all 1.5s;
